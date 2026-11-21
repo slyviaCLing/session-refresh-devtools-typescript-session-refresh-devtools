@@ -1,0 +1,16 @@
+{
+  "name": "session-refresh-devtools-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/session_refresh_service.ts",
+    "test": "node --experimental-strip-types --test src/session_refresh_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT"
+}
